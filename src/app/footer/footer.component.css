@@ -1,0 +1,20 @@
+div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: #A3CFBB;
+  height: 60px;
+}
+
+@font-face {
+font-family: 'Inter-Medium';
+src: url('/assets/fonts/Inter-Medium.ttf') format('truetype');
+}
+
+p{
+font-size: 20px;
+color: #0A3622;
+font-family: 'Inter-Medium', sans-serif;
+line-height: 1;
+}

@@ -4,11 +4,23 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CrearalarmaComponent } from './crearalarma/crearalarma.component';
+import { InicioComponent } from './inicio/inicio.component';
+import { CrearcitaComponent } from './crearcita/crearcita.component';
+import { MedicamentosComponent } from './medicamentos/medicamentos.component';
+import { AlarmacreadaComponent } from './alarmacreada/alarmacreada.component';
+import { CitacreadaComponent } from './citacreada/citacreada.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
-  declarations: [	
+  declarations: [							
     AppComponent,
-      CrearalarmaComponent
+      CrearalarmaComponent,
+      InicioComponent,
+      CrearcitaComponent,
+      MedicamentosComponent,
+      AlarmacreadaComponent,
+      CitacreadaComponent,
+      FooterComponent
    ],
   imports: [
     BrowserModule,

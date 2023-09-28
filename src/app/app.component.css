@@ -9,15 +9,52 @@ div {
 }
 
 nav{
-  font-family: 'InriaSans-Regular', sans-serif;
-  font-size: 32px;
-  height: 107px;
-  display: flex;
-  align-items: center;
+  font-family: 'Inter-SemiBold', sans-serif;
+  font-size: 16px;
   color: #0F5132;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 104px;
+  background-color: #A3CFBB;
+}
+
+.navbar-nav {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+.nav-item {
+  margin: 0 10px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #0F5132;
+}
+
+@media (max-width: 767px) {
+  .navbar-nav {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .nav-item {
+    margin: 0;
+  }
 }
 
 @font-face {
   font-family: 'Inter-Regular';
   src: url('/assets/fonts/Inter-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Inter-SemiBold';
+  src: url('/assets/fonts/Inter-SemiBold.ttf') format('truetype');
 }

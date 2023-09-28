@@ -1,46 +1,18 @@
 <router-outlet>
-
-  <nav class="navbar navbar-expand-lg" style="background-color: #A3CFBB">
-    <div class="collapse navbar-collapse container" id="navbarSupportedContent" style="background-color: #A3CFBB">
-    <ul class="navbar-nav mr-auto">
+  <nav class="navbar">
+    <ul class="navbar-nav">
       <li class="nav-item">
-        <a   class="nav-link"
-          role="button"
-          aria-expanded="false"
-          routerLink="/alarma"
-          style="margin-left: 50px; margin-right: 200px; color: #0F5132;"
-          i18n>
-          CREAR ALARMA
-        </a>
+        <a class="nav-link text-center" role="button" routerLink="/crearalarma">CREAR ALARMA</a>
       </li>
       <li class="nav-item">
-        <a   class="nav-link"
-          role="button"
-          aria-expanded="false"
-          routerLink="/medicamento"
-          style="margin-right: 200px; color: #0F5132;"
-          i18n>
-          MIS MEDICAMENTOS
-        </a>
+        <a class="nav-link text-center" role="button" routerLink="/medicamentos">MIS MEDICAMENTOS</a>
       </li>
-      <li ngbDropdown  class="nav-item">
-        <a ngbDropdownToggle  class="nav-link dropdown-toggle"
-          style="margin-right: 50px; color: #0F5132;"
-          role="button"
-          data-bs-toggle="dropdown"
-          aria-expanded="false" i18n>
-          MI SALUD
-        </a>
-        <ul ngbDropdownMenu aria-labelledby="navbarDropdown" style="background-color: #A3CFBB; color: #146C43;">
-          <li><a ngbDropdownItem  routerLink="/cita" style="color: #146C43; font-size: 32px; margin-top: 20px; margin-bottom: 15px; font-family: 'Inter-Regular';">CREAR CITA</a></li>
-          <li><a ngbDropdownItem  routerLink="/informacion" style="color: #146C43; font-size: 32px; margin-bottom: 20px; font-family: 'Inter-Regular';">INFORMACIÓN</a></li>
-        </ul>
+      <li class="nav-item">
+        <a class="nav-link text-center" role="button" routerLink="/crearcita">CREAR CITA</a>
       </li>
-      </ul>
-  </div>
-</nav>
+    </ul>
+  </nav>
 
 </router-outlet>
 
-<h1>hola</h1>
-hola
+
