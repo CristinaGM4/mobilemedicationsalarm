@@ -1,3 +1,47 @@
-<p>
-  crearalarma works!
-</p>
+<div class="container-fluid">
+  <div class="d-block" style="margin-top: 80px;">
+    <div class="col-12 text-center">
+      <h1>Crear alarma</h1><br>
+    </div>
+
+    <div class="d-block">
+      <div style="margin-bottom: 20px; margin-right: 200px;">
+      <label for="inputHour">Hora:</label>
+      </div>
+      <div class="d-flex justify-content-center">
+      <input type="text" class="form-control col-4 text-center" id="inputHour" placeholder="20:00 P.M" style="width: 300px; height: 32px; font-size: 20px; font-family: 'Inter-Regular', sans-serif; border-radius: 20px; border-color: #146C43;">
+      </div>
+    </div>
+
+    <div class="d-block" style="margin-bottom: 20px; margin-top: 20px;">
+      <div class="text-start" style="margin-bottom: 20px; margin-right: 200px; margin-left: 60px;">
+      <label for="inputDate">Frecuencia:</label>
+      </div>
+      <div>
+      <input type="text" class="form-control col-4 text-center" id="inputDate" style="width: 136px; height: 32px; font-size: 20px; font-family: 'Inter-Regular', sans-serif; border-radius: 20px; border-color: #146C43; margin-right: 10px;"><h3 style="margin-top: 10px;">veces al dia</h3><br>
+      </div>
+      <div>
+      <h3 style="margin-top: 10px; margin-right: 10px;">Cada</h3><input type="text" class="form-control col-4 text-center" id="inputDate" style="width: 95px; height: 32px; font-size: 20px; font-family: 'Inter-Regular', sans-serif; border-radius: 20px; border-color: #146C43; margin-right: 10px;"><h3 style="margin-top: 10px;">horas.</h3>
+      </div>
+    </div>
+
+
+    <div class="form-group" style="margin-bottom: 60px;">
+      <label for="seleccion" style="margin-right: 16px; margin-left: 10px;">Medicamento:</label>
+      <select class="form-control" id="seleccion" name="seleccion"  style="background-color: #A3CFBB; width: 135px; color:#146C43; font-size: 16px; font-family: 'Inter-Bold', sans-serif;">
+        <option value="opcion1" style="background-color: #A3CFBB; width: 135px; color:#146C43; font-size: 16px; font-family: 'Inter-Bold', sans-serif; width: 135px;">Seleccione:</option>
+        <option value="opcion1" style="background-color: #A3CFBB; width: 135px; color:#146C43; font-size: 16px; font-family: 'Inter-Bold', sans-serif; width: 135px;">Amoxicilina</option>
+        <option value="opcion2" style="background-color: #A3CFBB; width: 135px; color:#146C43; font-size: 16px; font-family: 'Inter-Bold', sans-serif; width: 135px;">Esomeprazol</option>
+        <option value="opcion3" style="background-color: #A3CFBB; width: 135px; color:#146C43; font-size: 16px; font-family: 'Inter-Bold', sans-serif; width: 135px;">Cefalexina</option>
+      </select>
+    </div>
+
+    <div class="col-12" style="margin-bottom: 150px;">
+      <button type="button" class="btn" style="background-color: #146C43; width: 281px; height: 51px;" routerLink="/alarmacreada">Guardar</button>
+    </div>
+
+  </div>
+</div>
+
+
+<app-footer></app-footer>

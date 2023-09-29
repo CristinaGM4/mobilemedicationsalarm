@@ -6,6 +6,8 @@ import { MedicamentosComponent } from './medicamentos/medicamentos.component';
 import { CrearcitaComponent } from './crearcita/crearcita.component';
 import { CitacreadaComponent } from './citacreada/citacreada.component';
 import { AlarmacreadaComponent } from './alarmacreada/alarmacreada.component';
+import { AgregarmedicamentoComponent } from './agregarmedicamento/agregarmedicamento.component';
+import { MedicamentocreadoComponent } from './medicamentocreado/medicamentocreado.component';
 
 const routes: Routes = [
   {path: '', component:InicioComponent},
@@ -14,6 +16,8 @@ const routes: Routes = [
   {path: 'crearcita', component:CrearcitaComponent},
   {path: 'citacreada', component:CitacreadaComponent},
   {path: 'alarmacreada', component:AlarmacreadaComponent},
+  {path: 'agregarmedicamento', component:AgregarmedicamentoComponent},
+  {path: 'medicamentocreado', component:MedicamentocreadoComponent},
 ];
 
 @NgModule({

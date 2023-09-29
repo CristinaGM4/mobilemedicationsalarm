@@ -79,8 +79,8 @@ button{
 }
 
 p{
-  font-family: 'Inter-Medium',sans-serif;
-  font-size: 32px;
+  font-family: 'Inter-SemiBold',sans-serif;
+  font-size: 24px;
   color: #146C43;
   line-height: 1;
 }
@@ -99,8 +99,3 @@ h1{
   justify-content: center;
 }
 
-h3{
-  font-size: 20px;
-  font-family: 'Inter-Regular', sans-serif;
-  color:#146C43;
-}

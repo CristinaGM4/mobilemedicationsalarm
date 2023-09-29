@@ -10,9 +10,11 @@ import { MedicamentosComponent } from './medicamentos/medicamentos.component';
 import { AlarmacreadaComponent } from './alarmacreada/alarmacreada.component';
 import { CitacreadaComponent } from './citacreada/citacreada.component';
 import { FooterComponent } from './footer/footer.component';
+import { AgregarmedicamentoComponent } from './agregarmedicamento/agregarmedicamento.component';
+import { MedicamentocreadoComponent } from './medicamentocreado/medicamentocreado.component';
 
 @NgModule({
-  declarations: [							
+  declarations: [									
     AppComponent,
       CrearalarmaComponent,
       InicioComponent,
@@ -20,7 +22,9 @@ import { FooterComponent } from './footer/footer.component';
       MedicamentosComponent,
       AlarmacreadaComponent,
       CitacreadaComponent,
-      FooterComponent
+      FooterComponent,
+      AgregarmedicamentoComponent,
+      MedicamentocreadoComponent
    ],
   imports: [
     BrowserModule,

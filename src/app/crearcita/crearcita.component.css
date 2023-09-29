@@ -85,34 +85,6 @@ p{
   line-height: 1;
 }
 
-/* Cambiar el color del switch cuando está en estado 'checked' */
-.form-check-input:checked {
-  background-color: #146C43; /* Color de fondo cuando está activado */
-  border-color: #146C43; /* Color del borde cuando está activado */
-}
-
-/* Cambiar el color de fondo del switch cuando está en estado 'unchecked' */
-.form-check-input:not(:checked) {
-  background-color: #D1E7DD; /* Color de fondo cuando está desactivado */
-  border-color: #146C43; /* Color del borde cuando está desactivado */
-}
-
-/* Cambiar el color del switch cuando está en estado 'checked' y el hover */
-.form-check-input:checked:hover {
-  background-color: #146C43; /* Color de fondo al pasar el mouse sobre el switch activado */
-  border-color: #146C43; /* Color del borde al pasar el mouse sobre el switch activado */
-}
-
-.form-check-label {
-  font-size: 22px;
-  color: #146C43;
-  font-family: 'Inter-Bold', sans-serif;
-}
-
-.form-control {
-  font-size: 16px;
-}
-
 @font-face {
   font-family: 'Inter-Thin';
   src: url('/assets/fonts/Inter-Thin.ttf') format('truetype');
@@ -126,3 +98,4 @@ h1{
   align-items: center;
   justify-content: center;
 }
+

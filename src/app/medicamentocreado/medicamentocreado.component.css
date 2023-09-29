@@ -12,9 +12,9 @@ div {
 }
 
 h2{
-  font-size: 54px;
+  font-size: 22px;
   color: #146C43;
-  font-family: 'Inter-Bold', sans-serif;
+  font-family: 'Inter-SemiBold', sans-serif;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -43,35 +43,14 @@ label{
 }
 
 .btn-link {
-  font-size: 40px;
-  color: #75B798;
-  font-family: 'Inter-Light', sans-serif;
+  font-size: 24px;
+  color: #146C43;
+  font-family: 'Inter-SemiBold', sans-serif;
   text-decoration: underline;
   border: none;
-  display: flex;
-  align-items: start;
-  justify-content: start;
-  margin-top: 10px;
-  margin-left: 10px;
-  margin-bottom: 10px;
   transition: none !important;
 }
 
-button{
-  color: #D1E7DD;
-  transition: none !important;
-  font-family: 'Inter-SemiBold', sans-serif;
-  font-size: 24px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  justify-content: center;
-}
-
-.btn:hover {
-  color: #D1E7DD;
-
-}
 
 @font-face {
   font-family: 'Inter-Medium';
@@ -79,8 +58,8 @@ button{
 }
 
 p{
-  font-family: 'Inter-Medium',sans-serif;
-  font-size: 32px;
+  font-family: 'Inter-Semibold',sans-serif;
+  font-size: 20px;
   color: #146C43;
   line-height: 1;
 }
@@ -97,10 +76,4 @@ h1{
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-h3{
-  font-size: 20px;
-  font-family: 'Inter-Regular', sans-serif;
-  color:#146C43;
 }
